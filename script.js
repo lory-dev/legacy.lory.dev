@@ -20,4 +20,10 @@ function detectMobile() {
         alert("Warning: This site is best viewed on a desktop.");
     }
 }
+
+function scrollToMain() {
+    const mainSection = document.querySelector('main');
+    mainSection.scrollIntoView({ behavior: 'smooth' });
+}
+
 document.addEventListener('DOMContentLoaded', detectMobile);
