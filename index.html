@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lory.dev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>lory</h1>
+            <h1>.dev</h1>
+        </div>
+    </header>
+    <main>
+        <h1>Welcome to <strong>lory.dev</strong>!</h1>
+        <p>I am a passionate developer creating games using Unreal Engine.</p>
+        <p>Over the years, I have worked on my programming and game development skills, creating immersive experiences for players around the globe.</p>
+        <section class="portfolio">
+            <h2>What I do</h2>
+            <div class="project-card">
+                <h4>Game Development</h4>
+                <p>I put most of my time and effort into developing games that people can enjoy. I am currently in the process of making another game, since my last one wasn't received so well.</p>
+                <p>Most of my games are on Steam, while the "prototypes" are on gamejolt and itch.io</p>
+            </div>
+            <hr style="height:10px;border:none;color:#33333300;background-color:#33333300;">
+            <div class="project-card">
+                <h4>Web Development</h4>
+                <p>Believe it or not, game development isn't my only passion. I also quite enjoy developing websites.</p>
+                <p>I have already made some websites frontends and backends before, but either their domain expired, or their hosting expired. This website will be running only on GitHub Pages's free hosting. This means I will still be able to update and host the website even if I'm not paying for any hosting.</p>
+            </div>
+        </section>
+
+
+        
+
+        <hr style="height:1.5px;border-width:0;color:#33333300;background-color:#33333300;">
+
+
+        <section class="blog">
+            <h1>Blog</h1>
+            <div class="blog-introduction">
+                <p>This website contains a "blog". As of now, it only has <strong>one</strong> blog post.</p>
+                <p>You can check it out <a href="blog/blog.html">here</a>.</p>
+            </div>
+        </section>
+
+
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <a href="project1.html" class="project-card">
+                    <div class="bg-image" style="background-image: url('images/liminal3.png');"></div>
+                    <h3>Liminality</h3>
+                    <p>The most Liminal experience yet.</p>
+                </a>
+                <a href="project2.html" class="project-card" style="display: none;">
+                    <div class="bg-image" style="background-image: url('image.png');"></div>
+                    <h3>2</h3>
+                    <p>b</p>
+                </a>
+                <a href="project3.html" class="project-card" style="display: none;">
+                    <div class="bg-image" style="background-image: url('image.png');"></div>
+                    <h3>3</h3>
+                    <p>c</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>lory.dev</p>
+        <div class="footer-buttons">
+            <button class="footer-buttons" onclick="scrollToSection('.projects')">Projects</button>
+            <button class="footer-buttons" onclick="scrollToSection('.portfolio')">What I Do</button>
+            <button class="footer-buttons" onclick="location.href='blog/blog.html'">Blog</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

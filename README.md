@@ -1,0 +1,2 @@
+# lory.dev
+ my website

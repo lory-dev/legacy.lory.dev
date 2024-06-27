@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Lory.dev</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>lory</h1>
+            <h1>.dev</h1>
+            <h2>blog</h2>
+        </div>
+    </header>
+    <main>
+        <section class="blog">
+            <h2>Blog</h2>
+            <div class="blog-list">
+                <a href="blog-post.html" class="blog-card">
+                    <div class="bg-image" style="background-image: url('./images/placeholder.png');"></div>
+                    <p style="opacity: 40%; font-size: medium; padding: 0%;">PINNED</p>
+                    <h3>Welcome to lory.dev!</h3>
+                    <p>My first post welcoming you all in my new website!</p>
+                </a>
+                <a href="blog-post.html" class="blog-card" style="display: none;">
+                    <div class="bg-image" style="background-image: url('./images/image.png');"></div>
+                    <h3>Blog Article 2</h3>
+                    <p>Blog Article 2 Description</p>
+                </a>
+                <a href="blog-post.html" class="blog-card" style="display: none;">
+                    <div class="bg-image" style="background-image: url('./images/image.png');"></div>
+                    <h3>Blog Article 3</h3>
+                    <p>Blog Artcle 3 Description</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>lory.dev</p>
+        <div class="footer-buttons">
+            <button class="footer-buttons" onclick="location.href='../index.html'">Home</button>
+            <button class="footer-buttons" onclick="scrollToSection('.blog')">Blog</button>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
