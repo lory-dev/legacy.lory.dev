@@ -13,3 +13,12 @@ window.addEventListener('scroll', () => {
 function scrollToSection(section) {
     document.querySelector(section).scrollIntoView({ behavior: 'smooth' });
 }
+
+function detectMobile() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    if (/android|iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        alert("Warning: This site is best viewed on a desktop.");
+    }
+}
+
+document.addEventListener('DOMContentLoaded', detectMobile);
