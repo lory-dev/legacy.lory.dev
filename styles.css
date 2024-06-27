@@ -110,7 +110,7 @@ header {
     transition: font-size 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
 }
 
-#scroll-arrow {
+.scroll-arrow {
     position: absolute;
     bottom: 20px;
     width: 50px;
@@ -125,22 +125,22 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#scroll-arrow svg {
+.scroll-arrow svg {
     fill: #fff;
     width: 30px;
     height: 30px;
     transition: fill 0.3s ease;
 }
 
-#scroll-arrow:hover {
+.scroll-arrow:hover {
     background-color: #fff;
 }
 
-#scroll-arrow:hover svg {
+.scroll-arrow:hover svg {
     fill: #000;
 }
 
-#scroll-arrow {
+.scroll-arrow {
     animation: bounce 2s infinite;
 }
 
