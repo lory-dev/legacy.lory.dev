@@ -20,5 +20,4 @@ function detectMobile() {
         alert("Warning: This site is best viewed on a desktop.");
     }
 }
-
 document.addEventListener('DOMContentLoaded', detectMobile);
