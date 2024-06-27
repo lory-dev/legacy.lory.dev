@@ -128,11 +128,11 @@ header {
 #scroll-arrow .material-icons {
     color: #fff;
     font-size: 2rem;
+    transition: color 0.3s ease;
 }
 
 #scroll-arrow:hover {
     background-color: #fff;
-    color: #000;
 }
 
 #scroll-arrow:hover .material-icons {
@@ -154,6 +154,7 @@ header {
         transform: translateY(-5px);
     }
 }
+
 
 main {
     flex: 1;
