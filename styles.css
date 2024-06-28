@@ -265,12 +265,12 @@ header.scrolled .header-content h1 {
 }
 header.scrolled .header-content h2 {
     font-size: 2rem;
-    transform: translateY(+400px);
+    transform: translateY(+42vh);
 }
 header.scrolled .header-content h3 {
     opacity: 60%;
     font-size: 0.9rem;
-    transform: translateY(+410px);
+    transform: translateY(+43vh);
 }
 
 body.scrolled footer {
